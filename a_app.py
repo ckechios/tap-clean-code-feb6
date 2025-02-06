@@ -16,9 +16,12 @@ print("Slice items:", list_sample[2:len(list_sample)],f" array length: {len(list
 #                              [start_index:end_index]
 # Loop through Lists
 print(" ---- Listing Items in List ----")
-# for
+for item in list_sample:
+  print(item)
 print(" ---- Listing Items using range() ----")
 # for using range(start,stop,step) / range(stop)
+for ctr in range(len(list_sample)):
+  print(ctr,":", list_sample[ctr])
 print(hr)
 
 em = "j@em2.com"
