@@ -48,4 +48,3 @@ print(HORIZONTAL_RULE)
 for key in dictionary_sample:
   print(key, ":", dictionary_sample[key])
 print("-"*20)
-
